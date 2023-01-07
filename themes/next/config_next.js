@@ -2,16 +2,9 @@ const CONFIG_NEXT = {
 
   HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
   HOME_BANNER_Strings: [
-  '今番动荡，又是为何，又将去何？',
-  "这是你想要的生活吗？",
-  "成长就是背叛，没有离开，就没有到达",
-  " 徒劳之举，你为什么要坚持？",
-  "从你牵着她走出收容区的那一刻起，你将用余下的一生偿还你的宿罪",
-  "而这样的痛苦总有一天会结束",
-  "他们的主题是破局与成长，我的主题是：我将孤单而度过一生",
-  "你将孤单而度过一生",
-  "而浮生若梦，为欢几何",
-  "莫春者，春服既成。冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归",
+    'for PhD, settling down is impossible',
+    'Life was out of ordinary',
+    'La Vida Sola Viviras',
 ], // 首页大图标语文字
 
   NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定

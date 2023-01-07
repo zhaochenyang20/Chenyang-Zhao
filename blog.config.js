@@ -1,7 +1,7 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
-  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || 'e417b3802ef74df0973fea3ad1a557ce',
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '76d37d72bf82419287b5cbc3c01e8b9e',
   PSEUDO_STATIC: false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
   NEXT_REVALIDATE_SECOND: 5, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
   THEME: process.env.NEXT_PUBLIC_THEME || 'medium', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
@@ -10,8 +10,8 @@ const BLOG = {
   SINCE: 2023, // e.g if leave this empty, current year will be used.
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
-  AUTHOR: 'Eren Zhao', // 作者
-  BIO: '还有多少颠沛流离？', // 作者简介
+  AUTHOR: 'ChenyangZhap', // 作者
+  BIO: 'Junior Student in THU CST, Targeted In-Coming CS PhD in NLP', // 作者简介
   LINK: 'https://github.com/zhaochenyang20', // 网站地址
   KEYWORDS: 'Maching Learning, NLP, Large Language Models, Reasoning, Chain of Thoughts, Toxicility', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
@@ -67,7 +67,7 @@ const BLOG = {
   FIREWORKS_COLOR: ['255, 20, 97', '24, 255, 146', '90, 135, 255', '251, 243, 140'],
 
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
 
   // 悬浮挂件
   WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
