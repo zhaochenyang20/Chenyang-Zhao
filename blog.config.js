@@ -10,7 +10,7 @@ const BLOG = {
   SINCE: 2023, // e.g if leave this empty, current year will be used.
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
-  AUTHOR: 'ChenyangZhap', // 作者
+  AUTHOR: 'Eren ChenyangZhao', // 作者
   BIO: 'Junior Student in THU CST, Targeted In-Coming CS PhD in NLP', // 作者简介
   LINK: 'https://github.com/zhaochenyang20', // 网站地址
   KEYWORDS: 'Maching Learning, NLP, Large Language Models, Reasoning, Chain of Thoughts, Toxicility', // 网站关键词 英文逗号隔开
